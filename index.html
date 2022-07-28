@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>LOGIN</title>
-        <link rel="shortcut icon" href="train picture 1.jpg">
+        <title>KRTBS Home</title>
+        <link rel="shortcut icon" href="images/KRTBS_update.png">
         <link rel="stylesheet" href="index.css">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Noto+Sans&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
@@ -11,12 +11,59 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
 
     </head>
-    <body style="background-image: url('images/back.jpg');">
+    <body>
         <header>
-            <h1>RAILWAY TICKET BOOKING SYSTEM</h1>
+           <!-- <nav class="navbar navbar-expand-sm bg-light">
+
+                <div class="container-fluid">
+    
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link 3</a>
+                    </li>
+                  </ul>
+                </div>
+              
+                </nav>-->
+
+
+            <!--<nav class="navbar navbar-expand-sm bg-light navbar-light">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">Login/Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>--> 
+            <div class="container" style="margin-top: 10px; padding-bottom: 20px; padding-top: 5px;">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img  style="width: 80px; height: 80px; opacity: 90%;" src="images/KRTBS_update.png" alt="">
+                    </div>
+                    <div class="col-lg-10">
+                        <h2 style="font-family: 'Open Sans', sans-serif; padding-top: 20px;">KIRAN'S RAILWAY TICKET BOOKING SERVICE</h2>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <!--<h1>RAILWAY TICKET BOOKING SYSTEM</h1>-->
         </header>
 
 
@@ -46,9 +93,20 @@
         </div>
 
 
+        <div class="row" style="display: flex; align-items: center; justify-content: center;padding-top:30px;">
+            <h1 style="font-family: 'Open Sans', sans-serif;">LOGIN</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-5"></div>
+            <div class="col-sm-2" id="line_for_login" ></div>
+            <div class="col-sm-5"></div>
+        </div> 
+
+        <section id="_2nd_section">
         <div class="container" id="login_and_picture">
             <div class="row">
-                <div class="col-lg-6" style="background-image: url('images/processed_img2.png'); background-repeat: no-repeat; background-position: center;">
+                <div class="col-sm-6" style="background-image: url('images/processed_img2.png'); background-repeat: no-repeat; background-position: center;">
                     <!--<h1>hello alllllll ajjknfkf anndjfsndj fjsdfjsj</h1>-->
                     <ul style="list-style-type: none;">
                         <li><h1 id="track_starts" style="opacity: 100%;">Your Track Starts Here</h1></li>
@@ -57,22 +115,118 @@
                     
                     <!--<img src="images/beside_log.jpg" id="track" alt="">-->
                 </div>
+                <div class="col-sm-6" id="login">
+                    <div class="container" id="login_container">
+                        <!--<div class="row" id="login_row">
+                            <h1>LOGIN</h1>
+                        </div>-->
 
-                <div class="col-lg-6" id="login">
-                    <h1>LOGIN</h1>
+                        <div class="row">
+                            <input type="text" name="username" placeholder="USERNAME" id="user"><br/>
+                        </div>
+
+                        <div class="row" id="pass_row">
+                            <input type="password" name="password" placeholder="PASSWORD" id="pass"><br/>
+                        </div>
+                        <div class="row" id="submit_and_register">
+                            <div class="col-sm-6" id="submit_id">
+                                <input type="submit" value="SUBMIT" onclick="login()">
+                            </div>
+                            <div class="col-sm-6" id="register_id">
+                                <input type="submit" value="REGISTER" onclick="register()">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--<h1>LOGIN</h1>
                     <input type="text" name="username" placeholder="USERNAME" id="user"><br/>
                     <input type="password" name="password" placeholder="PASSWORD" id="pass"><br/>
                     <input type="submit" value="SUBMIT" onclick="login()">
-                    <input type="submit" value="REGISTER" onclick="register()">
+                    <input type="submit" value="REGISTER" onclick="register()">-->
                 </div>
             </div>
         </div>
-        <hr>
+        </section>
+
+
+
+
+        <section id="_3rd_section">
         <div class="container">
-            <div class="row">
-                <h1>WE ARE TICKET BOOKING AGENTS</h1>
+            <div class="row" style="justify-content: center;">
+                <!--<div class="col-lg-3"></div>
+                <div class="col-lg-6">-->
+                    <h1  style="align-items: center;justify-content: center;font-family: 'Open Sans', sans-serif; padding-top: 10px; padding-bottom: 10px;">YOUR 3 STEP JOURNEY</h1>   
+               <!-- </div>
+                <div class="col-lg-3"></div>-->
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-5"></div>
+            <div class="col-sm-2" id="line"></div>
+            <div class="col-sm-5"></div>
+        </div> 
+        <div class="container" id="_3images_container" style="padding-bottom: 20px; padding-top: 40px;">
+            <div class="row" id="_3images">
+                <div class="col-sm-4">
+                    <div class="container">
+                        <img src="images/starts_with.jpg" alt="">
+                        <div class="text-block">
+                            <h1 id="l" style="background-color: #F24C4C;">LOGIN</h1>
+                        </div>
+                    </div>
+                    <!--<img src="images/starts_with.jpg" alt="">-->
+                    <!--<p class="text-muted">START YOUR BOOKING JOURNEY WITH</p>-->
+
+                    <!--<h1 id="l" style="background-color: #F24C4C;">LOGIN</h1>-->
+                </div>
+                <span></span>
+                <div class="col-sm-4" id="p">
+                    <!--<p>TRAVEL YOUR BOOKING JOURNEY WITH</p>-->
+                    <!--<h1 style="background-color: #EC9B3B;">PAYMENT</h1>-->
+                    <div class="container">
+                        <img src="images/inside_train.jpg" alt="">
+                        <div class="text-block">
+                            <h1 style="background-color: #EC9B3B;">PAYMENT</h1>
+                        </div>
+                    </div>
+                </div>
+                <span></span>
+                <div class="col-sm-4" id="t">
+                    <!--<p>END YOUR BOKUNG JOURNEY WITH<p>-->
+                    <!--<h1 style="background-color: #F7D716;">TICKET</h1>-->
+                    <div class="container">
+                        <img src="images/ends_with.jpg" alt="">
+                        <div class="text-block">
+                            <h1 style="background-color: #F7D716;">TICKET</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <h1 id="travel_chennai_local">TRAVEL IN CHENNAI LOCAL TRAINS</h1>
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4" id="line"></div>
+            <div class="col-sm-4"></div>
+        </div>
+        <div class="container">
+            <div class="row" id="namma_chennai">
+                <div class="col-lg-5">
+                    <p>Explore chennai with just paying 10 rupees to us and enjoy complete day of travel in chennai local trains!</p>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-6">
+                    <img src="images_/namma_chennai_v3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <section id="_5th_section">
+       
+        </section>
             <script type="text/javascript">const getobject =[
                 {
                     user: "a",
@@ -99,7 +253,7 @@
             {
                 if(user==getobject[i].user && pass == getobject[i].pass)
                 {
-                    window.location="https://kiran-alt.github.io/MY_1st_miniproject_page2/";
+                    window.location="https://pages.razorpay.com/pl_JvZHWSCXsVW0v0/view";
                     return    
                 }
                 
@@ -119,20 +273,25 @@
             }</script>
 
 
-            <input type="button" id="contact1" value="CONTACT ME ON WHATSAPP" onclick="open_whatsapp()">
+            <!--<input type="button" id="contact1" value="CONTACT ME ON WHATSAPP" onclick="open_whatsapp()">
             <script type="text/javascript">
                 function open_whatsapp(){
                     window.location.href="https://api.whatsapp.com/send/?phone=6301252251&text&type=phone_number&app_absent=0";
                 }
-            </script>
+            </script>-->
             
             <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> 
             <script>
                 const swiper = new Swiper('.swiper', {
+                    autoplay:{
+                        delay: 3000,
+                        disableOnInteraction:false,
+                    },
                 loop: true,
 
                 pagination: {
                     el: '.swiper-pagination',
+                    clickable: true,
                 },
                 navigation: {
                     nextEl: '.swiper-button-next',
@@ -144,4 +303,51 @@
 
             <!-- JavaScript Bundle with Popper --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
     </body>
+    <footer>
+        <div class="container" style="margin-left: 50px;">
+            <!--<h1 style="display: flex; align-items: center; justify-content: center; font-family: 'Open Sans', sans-serif;">SOCIAL</h1>-->
+            <div class="row" id="our_company">
+                <!--<div class="col-sm-1">
+                    <img src="images/KRTBS_update.png" alt="">
+                </div>-->
+                
+                <!--<div class="col-lg-3" id="test_hover">FOLLOW US ON </div>-->
+                <!--<div class="col-sm-1"></div>-->
+                <div class="col-sm-12" id="icons">
+                    <abbr title="Facebook"><a href="https://www.facebook.com/profile.php?id=100069646691511"><i class="fa-brands fa-facebook-f fa-2xl" id="face"></i></a></abbr>
+                    <abbr title="Whatsapp"><a href="https://wa.me/6301252251"><i class="fa-brands fa-whatsapp fa-2xl" id="what"></i></a></abbr>
+                    <abbr title="Instagram"><a href="https://www.instagram.com/kiran_mullapudi_/"><i class="fa-brands fa-instagram fa-2xl ab" id="insta"></i></a></abbr>
+                    <abbr title="Linkedin"><a href="https://www.linkedin.com/in/kiran-mullapudi-75079221a/"><i class="fa-brands fa-linkedin-in fa-2xl" id="linked"></i></a></abbr>
+                    <abbr title="Mail"><a href=""><i class="fa-solid fa-envelope fa-2xl" id="mai"></i></a></abbr>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12" id="all_rights">
+                            <p class="text-muted"> &#169;2022 Kiran Mullapudi All rights reserved</p>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="col-lg-1">
+                    <a href="https://www.facebook.com/profile.php?id=100069646691511"><i class="fa-brands fa-facebook-f" style="color: gray;"></i></a>
+
+                </div>
+                <div class="col-lg-1">
+                    <a href="https://wa.me/6301252251"><i class="fa-brands fa-whatsapp" style="color: gray;"></i></a>
+                </div>
+                <div class="col-lg-1">
+                    <a href="https://www.instagram.com/kiran_mullapudi_/"><i class="fa-brands fa-instagram" style="color: gray;"></i></a>
+                </div>
+                <div class="col-lg-1">
+                    <a href="https://www.linkedin.com/in/kiran-mullapudi-75079221a/"><i class="fa-brands fa-linkedin-in" style="color: gray;"></i></a>
+                </div>-->
+            </div>
+        </div>
+        <!--<div class="container">
+            <div class="row">
+                <div class="col-sm-12" id="all_rights">
+                    <p class="text-muted"> &#169;2022 Kiran Mullapudi All rights reserved</p>
+                </div>
+            </div>
+        </div>-->
+    </footer>
 </html>

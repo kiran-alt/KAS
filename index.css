@@ -1,3 +1,184 @@
+#line_for_login{
+    width:10px;
+    height: 4px;
+    background-color: #f66083;
+   /* align-items: center;
+    display: flex;
+    justify-content: center;*/
+}
+
+#line{
+    width:100px;
+    height: 4px;
+    background-color: #f66083;
+    /*align-items: center;
+    display: flex;
+    justify-content: center;*/
+}
+
+footer{
+    padding-top: 30px;
+}
+
+#_2nd_section{
+    /*background-color: rgb(220, 250, 215);*/
+}
+
+#all_rights{
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    padding-left: 85px;
+}
+
+body{
+    background-repeat: no-repeat;
+}
+
+#test_hover:hover{
+    background-color: black;
+}
+
+#mai:hover{
+    color: #FBBC05;
+}
+
+#what:hover{
+    color: #128C7E;
+}
+
+#linked:hover{
+    color: #0A66C2;
+}
+
+#face:hover{
+    color: #4267B2;
+}
+
+#insta:hover{
+    color: #E1306C;
+}
+
+
+#our_company{
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
+#icons{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icons a i{
+    color:grey;
+}
+
+#icons a{
+    margin-left: 60px;
+    width: 20px;
+    height: 50px;
+}
+
+
+
+#our_company div img{
+    width: 80px;
+    height: 80px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:darkgray;
+}
+
+#travel_chennai_local{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+
+
+}
+
+/*#travel_chennai_local:hover{
+    font-size: 41px;
+    color: #E1306C;
+}*/
+
+#namma_chennai div p{
+    font-size: 21px;
+    margin-top: 100px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+#namma_chennai div img{
+    /*width: 600px;
+    height: 320px;*/
+    /*padding-top: 20px;*/
+    width: 80%;
+    height: 100%;
+
+}
+
+#namma_chennai{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+#_3images .container{
+    position: relative;
+}
+
+#_3images .text-block{
+    position: absolute;
+    top: 250px;
+    width: 300px;
+}
+
+#_3images div h1{
+    /*margin-top: 280px;*/
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #293462;
+    border-style: none;
+    border-color: rgb(233, 243, 101);
+    border-width: 5px;
+    background-color: bisque;
+    opacity: 75%;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#_3images div {
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+
+#_3images div img{
+    /*width: 370px;
+    height: 350px;*/
+    width: 310px;
+    height: 320px;
+    opacity: 100%;
+    background-repeat: no-repeat;
+}
+#_3rd_section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /*background-color: rgb(241, 199, 140);*/
+    opacity: 90%;
+}
 
 #ra{
     width: 400px;
@@ -20,7 +201,8 @@
 }
 
 #login_and_picture{
-    margin-top: 100px;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
 
@@ -42,28 +224,28 @@
 
 .swiper-slide img{
     width:100%;
-    height:500px;
+    height:510px;
     opacity: 90%;
 }
 
 
-#login{
+/*#login{
     /*background-color: tan;*/
     /*border-style: solid;
     border-left: groove;
     border-width:10px;
     border-color: rgb(222, 205, 178);
     border-radius: 1px;*/
-    background-color:beige;
-    opacity: 85%;
-    height: 400px;
-    width: 10px;
-    padding:5px;
-    margin:auto;
+        /*background-color:beige;
+        opacity: 85%;*/
+    /*height: 410px;
+    width: 560px;*/
+        /*padding-bottom:200px;
+        position: relative;*/
     /*margin-top: 100px;
     margin-left:600px;*/
 
-}
+/*}*/
 
 /*section{
     background-color: sandybrown;
@@ -72,11 +254,42 @@
     background-color: sandybrown;
 }*/
 
+/*#login{
+    background-color:beige;
+}*/
+
+#login_container{
+    background-color: beige;
+    border-style: solid;
+    border-width: 2px;
+    border-color:grey;
+    width:510px;
+    height: 380px;
+    position: relative;
+    opacity: 70%;
+}
+
+input[type="text"]{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+input[type="password"]{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
 input[type="text"] ,input[type= "password"]{
-    padding: 10px 105px;
-    margin: 10px;
+    position: absolute;
+    /*padding: 10px 105px;*/
+    /*margin: 10px;*/
+    width: 80%;
+    height: 50px;
     margin-top: 30px;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
+
     font-size: 20px;
     font-weight:500;
     border-radius: 10px;
@@ -84,19 +297,48 @@ input[type="text"] ,input[type= "password"]{
 
 }
 input[value="SUBMIT"]{
-    padding:15px 80px;
-    margin:10px;
+        /*position: absolute;
+        top: 220px;*/
+    /*padding:15px 50px;*/
+    position: absolute;
+    /*margin:10px;*/
     /*background-color:burlywood;*/
     border-radius: 10px;
     font-family: cursive;
+    height: 50px;
+    width: 200px;
 }
 input[value="REGISTER"]{
-    padding:15px 80px;
-    margin:10px;
+    /*padding:15px 50px;*/
+    /*top: 220px;*/
+    /*margin:10px;*/
     /*background-color: tomato;*/
+    position: absolute;
     border-radius: 10px;
     font-family: cursive;
     margin-bottom: 0px;
+    height: 50px;
+    width: 200px;
+}
+
+#register_id{
+    position: absolute;
+    left: 240px;
+}
+
+
+#pass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#submit_and_register{
+    position: absolute;
+    width: 50%;
+    top: 80%;
+
 }
 
 #contact1{
@@ -114,22 +356,21 @@ html{
 }
 
 
-header h1{
+header h4{
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
     font-family: cursive;
     font-style:initial;
 
 }
 
-#login h1{
-    font-size: 50px;
-    font-family: cursive;
+#login_row h1{
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
     /*background-color: saddlebrown;*/
-    margin-left: 200px;
-    margin-right:380px; 
-    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 hr{

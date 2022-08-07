@@ -1,0 +1,138 @@
+#submit_button{
+    margin-top: 10px;
+}
+
+#email_id_for_css{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 300px;
+}
+
+#message_id_for_css{
+    width: 300px;
+    height: 150px;
+    padding-top: 10px;
+}
+
+#space{
+    padding-top: 100px;
+}
+
+#_1st_section{ 
+    background-image: url("contact_images/contact_us_1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#contact_us_h1{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom:0px;
+}
+
+#contact_us_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 400px;
+    background-color: beige;
+    padding-top: 20px;
+    padding-bottom:0px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    opacity: 50%;
+}
+
+#address_h1 {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+#address_container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#icons{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icons a i{
+    color:grey;
+}
+
+#icons a{
+    margin-left: 60px;
+    width: 20px;
+    height: 50px;
+}
+
+
+
+#our_company div img{
+    width: 80px;
+    height: 80px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:darkgray;
+}
+
+#mai:hover{
+    color: #FBBC05;
+}
+
+#what:hover{
+    color: #128C7E;
+}
+
+#linked:hover{
+    color: #0A66C2;
+}
+
+#face:hover{
+    color: #4267B2;
+}
+
+#insta:hover{
+    color: #E1306C;
+}
+
+footer{
+    padding-top: 30px;
+}
+
+#all_rights{
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    padding-left: 85px;
+}
+
+
+#address_p{
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+#line{
+    width:100px;
+    height: 4px;
+    background-color: #f66083;
+    /*align-items: center;
+    display: flex;
+    justify-content: center;*/
+}
